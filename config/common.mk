@@ -43,6 +43,11 @@ PRODUCT_COPY_FILES += \
     vendor/du/prebuilt/common/lib64/libjni_latinime.so:system/lib64/libjni_latinime.so \
     vendor/du/prebuilt/common/lib64/libjni_latinimegoogle.so:system/lib64/libjni_latinimegoogle.so
 
+# Koala's goodness
+PRODUCT_COPY_FILES += \
+    vendor/du/prebuilt/common/app/re.codefi.savoca.kcal-1/oat/arm/base.odex:/system/app/re.codefi.savoca.kcal-1/oat/arm/base.odex \
+    vendor/du/prebuilt/common/app/re.codefi.savoca.kcal-1/base.apk:/system/app/re.codefi.savoca.kcal-1/base.apk \
+
 # SELinux filesystem labels
 PRODUCT_COPY_FILES += \
     vendor/du/prebuilt/common/etc/init.d/50selinuxrelabel:system/etc/init.d/50selinuxrelabel
